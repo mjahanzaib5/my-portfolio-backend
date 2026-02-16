@@ -31,7 +31,7 @@ export const SKILLS = [
 
 export const EXPERIENCE = [
   {
-    role: "Backend Lead",
+    role: "Senior Backend Developer",
     company: "Fascom Limited",
     period: "Feb, 2022 — Dec, 2025",
     details: [
@@ -53,11 +53,11 @@ export const EXPERIENCE = [
     ]
   },
   {
-    role: "Server-side Developer",
+    role: "Backend Developer",
     company: "ePlanet Communications Inc",
     period: "May 2019 — june 2020",
     details: [
-      "Building robust server-side logic and database interactions.",
+      "Building robust backend and database interactions.",
       "Ensuring data integrity and security across applications.",
       "Collaborating with client-side teams to deliver seamless data integration."
     ]

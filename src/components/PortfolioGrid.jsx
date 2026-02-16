@@ -25,9 +25,9 @@ export default function PortfolioGrid({ projects = [] }) {
             <span className="section-eyebrow" data-animate>Selected Work</span>
             <h2 className="section-title" data-animate>Portfolio</h2>
           </div>
-          <p className="section-lead" data-animate>
+          {/* <p className="section-lead" data-animate>
             Robust, scalable backend solutions engineered for performance, security, and reliability.
-          </p>
+          </p> */}
         </div>
         <div className="grid portfolio-grid" data-animate data-animate-stagger=".card">
           {visibleProjects.map((project, index) => (
