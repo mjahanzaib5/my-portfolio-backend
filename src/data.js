@@ -6,7 +6,7 @@ export const PROFILE = {
   email: "mjahanzaib5@gmail.com",
   phone: "+923213609115",
   shortBio:
-    "WordPress, Shopify & React — crafted with UI/UX leadership. Pixel-perfect UI, Frontend Development,React and WordPress, fast performance, and clean architecture. I build scalable component systems and delightful Frontend across React and WordPress.",
+    "WordPress, Shopify & React — crafted with UI/UX leadership. Pixel-perfect UI, Frontend Development,React and WordPress, fast performance, and clean architecture. I build scalable component systems and delightful Frontend across React and WordPress 1.",
   heroCTA: "Let's work together"
 };
 
