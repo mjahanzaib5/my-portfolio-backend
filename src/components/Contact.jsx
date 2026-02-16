@@ -10,9 +10,9 @@ export default function Contact({ profile, socials = [] }) {
       <div className="container contact-layout">
         <div className="contact-intro">
           <span className="section-eyebrow" data-animate>Let's collaborate</span>
-          <h2 className="section-title" data-animate>Ready to ship your next experience?</h2>
+          <h2 className="section-title" data-animate>Ready to scale your infrastructure?</h2>
           <p className="section-lead" data-animate>
-            Whether you need a design partner, frontend lead, or a sprint to unblock delivery, I'd love to hear from you.
+            Whether you need a backend architect, API specialist, or database expert to optimize your platform, let's connect.
           </p>
         </div>
         <div className="contact-card" data-animate>
@@ -31,7 +31,7 @@ export default function Contact({ profile, socials = [] }) {
             </div>
           </div>
           <div className="contact-actions">
-            <a className="btn" href={`mailto:${profile.email}`}>Start a project</a>
+            {/* <a className="btn" href={`mailto:${profile.email}`}>Start a project</a> */}
             {/* <div className="contact-links">
               <a
                 className="contact-icon contact-icon--whatsapp"

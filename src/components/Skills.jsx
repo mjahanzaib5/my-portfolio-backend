@@ -12,7 +12,7 @@ export default function Skills({ skills = [] }) {
           <span className="section-eyebrow" data-animate>Expertise</span>
           <h2 className="section-title" data-animate>Skills & toolset</h2>
           <p className="section-lead" data-animate>
-            A blend of product strategy, design systems, and production-ready engineering.
+            A blend of server architecture, database optimization, and secure API development.
           </p>
         </div>
         <ul className="pill-list" data-animate-stagger=".pill">

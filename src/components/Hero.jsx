@@ -65,48 +65,12 @@ export default function Hero({ profile }) {
       });
 
       gsap.set(roleRef.current, { text: "" });
-      const tl = gsap.timeline({
-        repeat: -1,
-        repeatDelay: 0.4,
-        defaults: { ease: "power1.inOut" },
-      });
+      const tl = gsap.timeline();
       tl.to(roleRef.current, {
-        duration: 1.2,
-        text: { value: "Frontend Developer" },
-        delay: 0.1,
-      })
-        .to(
-          roleRef.current,
-          {
-            duration: 0.3,
-            text: { value: "" },
-          },
-          "+=0.4"
-        )
-        .to(roleRef.current, {
-          duration: 1.2,
-          text: { value: "UI/UX Developer" },
-        })
-        .to(
-          roleRef.current,
-          {
-            duration: 0.3,
-            text: { value: "" },
-          },
-          "+=0.4"
-        )
-        .to(roleRef.current, {
-          duration: 1.2,
-          text: { value: "WordPress Developer" },
-        })
-        .to(
-          roleRef.current,
-          {
-            duration: 0.3,
-            text: { value: "" },
-          },
-          "+=0.4"
-        );
+        duration: 1.5,
+        text: { value: "Backend Developer" },
+        delay: 0.5,
+      });
     }, heroRef);
 
     return () => ctx.revert();
@@ -132,9 +96,9 @@ export default function Hero({ profile }) {
             >
               Download Resume
             </button>
-            <a href="#contact" className="link-quiet">
+            {/* <a href="#contact" className="link-quiet">
               Get in touch →
-            </a>
+            </a> */}
           </div>
           {/* <ul className="hero-meta">
             <li>
@@ -167,26 +131,24 @@ export default function Hero({ profile }) {
           <div className="hero-card">
             <span className="hero-card-badge">Currently available</span>
             <div className="hero-card-summary">
-              <h2>Frontend - UI/UX Developer</h2>
+              <h2>Backend Developer</h2>
               <p>
-                I partner with startups and teams to craft polished experiences
-                from concept to launch.
+                Specializing in robust server-side logic, database optimization, and secure API architecture for scalable applications.
               </p>
             </div>
             <div className="hero-stats">
-              <div>
-                {/* <strong>12+</strong> */}
-                <span>Working in UI/UX and Frontend Development
+              {/* <div>
+                <span>Specializing in Scalable Server-Side Logic
                   <br />
-                  CMS Development</span>
-              </div>
+                  Database & API Architecture</span>
+              </div> */}
               <div>
-                <strong>50+</strong>
-                <span>Products shipped</span>
+                <strong>5+</strong>
+                <span>Years of Experience</span>
               </div>
               <div>
                 <strong>100%</strong>
-                <span>Client satisfaction</span>
+                <span>Proven Track Record</span>
               </div>
             </div>
           </div>

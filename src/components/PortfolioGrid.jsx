@@ -26,7 +26,7 @@ export default function PortfolioGrid({ projects = [] }) {
             <h2 className="section-title" data-animate>Portfolio</h2>
           </div>
           <p className="section-lead" data-animate>
-            High-impact product and marketing experiences delivered across SaaS, fintech, and eCommerce.
+            Robust, scalable backend solutions engineered for performance, security, and reliability.
           </p>
         </div>
         <div className="grid portfolio-grid" data-animate data-animate-stagger=".card">

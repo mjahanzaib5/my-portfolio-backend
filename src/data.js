@@ -1,253 +1,190 @@
 export const PROFILE = {
   name: "Jahanzaib Khan",
-  title: "Frontend & UI/UX Lead | CMS | React JS Developer",
+  title: "Backend Developer | PHP | Node.js | Database Architect",
   city: "Karachi",
   country: "Pakistan",
   email: "mjahanzaib5@gmail.com",
   phone: "+923213609115",
   shortBio:
-    "WordPress, Shopify & React — crafted with UI/UX leadership. Pixel-perfect UI, Frontend Development,React and WordPress, fast performance, and clean architecture. I build scalable component systems and delightful Frontend across React and WordPress 1.",
+    "Experienced Backend Developer specializing in building robust, scalable APIs and managing complex databases. Proficient in PHP, Node.js, MySQL, MongoDB, and PostgreSQL. I design efficient server-side architectures and ensure high performance for data-driven applications.",
   heroCTA: "Let's work together"
 };
 
 export const SKILLS = [
-  "WordPress",
-  "Shopify",
-  "React JS",
-  "HTML5",
-  "CSS3",
-  "SCSS",
-  "JavaScript",
-  "Responsive",
-  "Figma to Code",
-  "PSD to Code",
-  "Performance",
+  "PHP",
+  "Node.js",
+  "MySQL",
+  "MongoDB",
+  "PostgreSQL",
+  "RESTful APIs",
+  "GraphQL",
+  "Express.js",
+  "Laravel",
+  "Database Design",
+  "Server Management",
+  "AWS",
   "Git/GitHub",
-  "Custom Themes",
-  "Custom Plugins",
-  "SEO Friendly Code",
+  "Docker",
+  "CI/CD",
   "Optimization"
 ];
 
 export const EXPERIENCE = [
   {
-    role: "UI/UX Developer",
+    role: "Backend Lead",
     company: "Fascom Limited",
-    period: "Feb, 2022 — Present",
+    period: "Feb, 2022 — Dec, 2025",
     details: [
-      "React Js Frontend Development",
-      "Frontend & UI/UX Lead",
-      "Shopify Development",
-      "React Frontend Development with pixel perfect coding also working on different libraries (antDesign, MaterialUI, Tailwind CSS)"
+      "Architecting scalable API solutions using Node.js and Express.",
+      "Managing complex database schemas in MongoDB and PostgreSQL.",
+      "Optimizing server performance and ensuring high availability.",
+      "Integrating third-party services and payment gateways."
     ]
   },
   {
-    role: "Frontend Developer",
+    role: "Backend Developer",
     company: "Levnine Digital",
     period: "July 2020 — January 2022",
     details: [
-      "Wordpress Development",
-      "Custom Theme Development",
-      "Plugin Development",
-      "Leading Frontend Development team fully functional WordPress website. Themes and plugin customization and plugin development."
+      "Custom WordPress plugin development using PHP and MySQL.",
+      "Database query optimization for high-traffic websites.",
+      "Developing secure and efficient REST APIs for client-side consumption.",
+      "Migrating legacy systems to modern backend architectures."
     ]
   },
   {
-    role: "Team Lead UI/UX",
+    role: "Server-side Developer",
     company: "ePlanet Communications Inc",
     period: "May 2019 — june 2020",
     details: [
-      "Frontend Development",
-      "Pixel Perfect Development",
-      "Leading UI/UX Development team and with clean and best performance code and best user interface and user experiece."
+      "Building robust server-side logic and database interactions.",
+      "Ensuring data integrity and security across applications.",
+      "Collaborating with client-side teams to deliver seamless data integration."
     ]
-  },
-  // {
-  //   role: "Associate Manager Web Development",
-  //   company: "Exact",
-  //   period: "Sep 2013 — April 2019",
-  //   details: [
-  //     "UI Development",
-  //     "Frontend Development",
-  //     "Wordpress Development"
-  //   ]
-  // },
-  // {
-  //   role: "Frontend Developer",
-  //   company: "Jeem Solution",
-  //   period: "Sep 2012 — March 2013",
-  //   details: [
-  //     "Frontend Development",
-  //     "UI/UX Design",
-  //     "Static and Dunamic Development"
-  //   ]
-  // }
+  }
 ];
 
 export const PROJECTS = [
-
   // {
-  //   name: "ORME Live",
-  //   url: "https://www.ormelive.com/",
-  //   thumbnail: "/images/projects/2.jpg",
-  //   details: "React JS"
+  //   name: "HBL",
+  //   url: "https://www.hbl.com/",
+  //   thumbnail: "/images/projects/5.jpg",
+  //   details: "Enterprise PHP/MySQL Backend"
   // },
-  // {
-  //   name: "AgentZena",
-  //   url: "https://agentzena.ai/",
-  //   thumbnail: "/images/projects/3.jpg",
-  //   details: "React JS"
-  // },
-  // {
-  //   name: "Logo Design Avenue",
-  //   url: "https://www.logodesignavenue.com/",
-  //   thumbnail: "/images/projects/4.jpg",
-  //   details: "UI Development"
-  // },
-  {
-    name: "HBL",
-    url: "https://www.hbl.com/",
-    thumbnail: "/images/projects/5.jpg",
-    details: "Wordpress"
-  },
   {
     name: "Vic Firth",
     url: "https://vicfirth.com/",
     thumbnail: "/images/projects/12.jpg",
-    details: "Wordpress"
+    details: "WordPress Custom Backend"
   },
   {
     name: "Likely Story",
     url: "https://likely-story.co.uk/",
     thumbnail: "/images/projects/13.jpg",
-    details: "Wordpress"
+    details: "PHP & Database Optimization"
   },
-  // {
-  //   name: "SFA Therapeutics",
-  //   url: "https://www.sfatherapeutics.com/",
-  //   thumbnail: "/images/projects/7.jpg",
-  //   details: "WIX Ecommerce"
-  // },
   {
     name: "Balaala Beauty Care",
     url: "https://balaalabeautycare.com/",
     thumbnail: "/images/projects/30.jpg",
-    details: "Shopify"
+    details: "Shopify Backend Logic"
   },
   {
     name: "Snoozy Nest",
     url: "https://snoozynest.com/",
     thumbnail: "/images/projects/31.jpg",
-    details: "Shopify"
+    details: "E-commerce Backend"
   },
   {
     name: "La Republica Food",
     url: "https://larepublicasuperfoods.com/",
     thumbnail: "/images/projects/17.jpg",
-    details: "Shopify"
+    details: "API Integration"
   },
   {
     name: "Craft 9 Studios",
     url: "https://www.craft9studios.com/",
     thumbnail: "/images/projects/1.jpg",
-    details: "React/NEXT JS"
+    details: "Node.js & MongoDB"
   },
   {
     name: "Shifaam",
     url: "https://www.shifaam.com/",
     thumbnail: "/images/projects/6.jpg",
-    details: "Frontend Bootstrap"
+    details: "Healthcare Data Management"
   },
-  // {
-  //   name: "DL1961",
-  //   url: "https://dl1961.com/",
-  //   thumbnail: "/images/projects/8.jpg",
-  //   details: "Shopify"
-  // },
-  // {
-  //   name: "Warp Weft World",
-  //   url: "https://warpweftworld.com/",
-  //   thumbnail: "/images/projects/29.jpg",
-  //   details: "Shopify"
-  // },
   {
     name: "Activ Communication",
     url: "https://www.activcommunication.fr/",
     thumbnail: "/images/projects/8-1.jpg",
-    details: "Wordpress"
+    details: "PHP Backend"
   },
   {
     name: "Dilate",
     url: "https://www.dilate.com.au/",
     thumbnail: "/images/projects/9-1.jpg",
-    details: "Wordpress"
+    details: "Bespoke System Architecture"
   },
   {
     name: "Nalgene",
     url: "https://nalgene.com/",
     thumbnail: "/images/projects/9-3.jpg",
-    details: "Wordpress"
+    details: "Backend Performance Tuning"
   },
   {
     name: "Coronet Kitchens",
     url: "https://www.coronetkitchens.com/",
     thumbnail: "/images/projects/9-2.jpg",
-    details: "Wordpress"
+    details: "CMS Backend Customization"
   },
   {
     name: "Bike Room",
     url: "https://bike-room.com/",
     thumbnail: "/images/projects/9-6.jpg",
-    details: "Wordpress"
+    details: "Data Migration & Sync"
   },
   {
     name: "Hexagon Architecture",
     url: "https://hxg.eu/",
     thumbnail: "/images/projects/10-1.jpg",
-    details: "Wordpress"
+    details: "PostgreSQL Database Design"
   },
   {
     name: "ElevenThirtySix",
     url: "https://itseleventhirtysix.com/",
     thumbnail: "/images/projects/9.jpg",
-    details: "Wordpress"
+    details: "Backend API Development"
   },
   {
     name: "NAPA",
     url: "https://napa.org.pk/",
     thumbnail: "/images/projects/10.jpg",
-    details: "Wordpress"
+    details: "Educational Portal Backend"
   },
   {
     name: "TGI Luxury",
     url: "https://tgiluxury.com/",
     thumbnail: "/images/projects/11.jpg",
-    details: "Wordpress"
+    details: "Luxury Retail Backend"
   },
   // {
-  //   name: "LaserMech",
-  //   url: "http://leimac.hk/",
-  //   thumbnail: "/images/projects/14.jpg",
-  //   details: "Wordpress"
+  //   name: "EnterAkt",
+  //   url: "https://enterakt.com/",
+  //   thumbnail: "/images/projects/15.jpg",
+  //   details: "Interactive System Backend"
   // },
-  {
-    name: "EnterAkt",
-    url: "https://enterakt.com/",
-    thumbnail: "/images/projects/15.jpg",
-    details: "Wordpress"
-  },
   {
     name: "Server4Sale",
     url: "https://www.server4sale.com.pk/",
     thumbnail: "/images/projects/16.jpg",
-    details: "Wordpress"
+    details: "Hosting Infrastructure"
   },
   {
     name: "Book Riot",
     url: "https://bookriot.com/",
     thumbnail: "/images/projects/16-1.jpg",
-    details: "Wordpress"
-  },
+    details: "High-Traffic PHP Backend"
+  }
 ];
 
 export const SOCIALS = [

@@ -11,9 +11,9 @@ export default function Experience({ items = [] }) {
         <div className="section-header section-header--stack">
           <span className="section-eyebrow" data-animate>Experience</span>
           <h2 className="section-title" data-animate>Career chapters</h2>
-          <p className="section-lead" data-animate>
+          {/* <p className="section-lead" data-animate>
             Leading multidisciplinary teams and delivering outcomes across agencies, startups, and enterprise projects.
-          </p>
+          </p> */}
         </div>
         <div className="timeline" data-animate-stagger=".timeline-item">
           {items.map((job, index) => (
